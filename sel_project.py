@@ -55,4 +55,3 @@ for url in author_urls:
 
 df = pd.DataFrame(author_dict)
 df.to_excel("yazarlar.xlsx")
-df.to_csv("yazarlar.csv")
