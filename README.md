@@ -1,16 +1,6 @@
-# Haber Başlıkları ve Kelime Sayısı
+# Quotes To Scrape - Authors Informations
 
-This project scrapes news headlines from the BBC News website and counts the number of words in each headline. The data is saved into a CSV file for further analysis.
-
-## How to Run
-
-1. Install the required libraries:  
-`pip install requests beautifulsoup4 pandas`
-
-2. Run the script:  
-`python your_script_name.py`
-
-3. The data will be saved in a CSV file (`headlines_word_count.csv`).
+This is a simple web scraping project built with Selenium that scrapes quotes from the "Quotes to Scrape" website. The project retrieves data such as authors' names, birthdates, and birthplaces and stores them in a dictionary. Finally, the dictionary is converted into a Pandas DataFrame and saved as an Excel file.
 
 ## License
 MIT License.
